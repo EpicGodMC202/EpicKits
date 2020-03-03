@@ -1,0 +1,29 @@
+#config file
+pluginPrefix: "&6&lEpicKits &7// &c"
+messages:
+  savingLayout: "Saving current layout for kit %kit%"
+  editorOpen: "Opening kit editor!"
+  kitGive: "Giving kit %kit% to %player%"
+  playerNotFound: "That player could not be found!."
+  notEnoughArgs: "Not enough arguments!."
+  invalidArgLength: "Invalid argument length!."
+  kitCreateFailed: "An error has occurred while trying to create kit!"
+  kitCreateSuccess: "Completed kit creation without errors"
+  kitAlreadyExists: "This kit already exists!."
+  kitNotFound: "Could not find specified kit"
+  serializing: "Attempting to serialize items..."
+  cmdNotRecognized: "This subcommand could not be found!."
+  error: "An unexpected Error has occurred!."
+  noPermission: "You do not have permission to run this command!."
+  noPermissionToEdit: "You dont have permission to edit the kit %kit%"
+  onlyPlayers: "Only players can run this command!."
+  usage:
+    - '&6&n----------------------------'
+    - ''
+    - '&6&l/EpicKits kitCreate <kitname>'
+    - '&6&l/EpicKits kit <player> <kitname> &7Give a kit to a specific player'
+    - '&6&l/EpicKits edit <kitname> &7Edit a kit for yourself'
+    - ''
+    - '&6&n----------------------------'
+editor:
+  name: "&6&lKit Editor"

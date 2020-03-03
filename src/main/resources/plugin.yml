@@ -1,0 +1,8 @@
+main: me.epicgodmc.epickits.EpicKits
+name: EpicKits
+version: 1.0.0
+author: EpicGodMC
+commands:
+  epickits:
+    usage: /<command>
+    aliases: [ek, epickit]
