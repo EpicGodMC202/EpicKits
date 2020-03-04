@@ -69,7 +69,7 @@ public class KitGiveCommand extends SubCommand {
                 kitHash.put(val, oriStack);
                 kitHash.put(ori, valStack);
             }
-        }
+        }else System.out.print("Player did NOT edit kit!");
         for (int slot : kitHash.keySet())
         {
             player.getInventory().setItem(slot, kitHash.get(slot));

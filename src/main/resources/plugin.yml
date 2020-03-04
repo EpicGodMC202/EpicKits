@@ -1,6 +1,6 @@
 main: me.epicgodmc.epickits.EpicKits
 name: EpicKits
-version: 1.0.0
+version: 1.0.1
 author: EpicGodMC
 commands:
   epickits:
